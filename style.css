@@ -11,6 +11,10 @@ header {
     font-size: 18pt;
 }
 
+h2 {
+    text-align: center;
+}
+
 ul {
     list-style-type: '✧ ';
 }
