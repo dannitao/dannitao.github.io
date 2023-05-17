@@ -1,9 +1,9 @@
 body {
     font-size: 12pt;
-    font-family: Circular, Arial, Helvetica, sans-serif;
+    font-family: Circular, Roboto, Arial, Helvetica, sans-serif;
     padding: 15px;
     border: 2px black;
-    background-color: rgb(255, 252, 248);
+    background-color: rgb(255, 244, 230);
 }
 
 header {
@@ -11,7 +11,7 @@ header {
     font-size: 18pt;
 }
 
-h2 {
+h1 {
     text-align: center;
 }
 
@@ -29,6 +29,7 @@ ul {
     color: green;
     border: 3px solid pink;
     border-radius: 5px;
+    font-size: 15pt;
 }
 
 .tab:hover {
@@ -41,22 +42,24 @@ ul {
     display: none;
 }
 
+/* maybe set up a flex grid for this shit lol? */
 container {
     display: flex;
     flex-wrap: wrap;
-    /* justify-content: space-between; */
+    /* gap: 2px 25px; */
+    justify-content: flex-start;
 }
 
 item {
-    /* max-width: 350px;
-    flex-grow: 1; */
+    max-width: 350px;
+    /* flex-grow: 1; */
     min-width: 280px;
     /* flex: 1 1; */
 }
 
 li:hover {
     color: rgb(211, 42, 42);
-    background-color: rgb(247, 255, 252);
+    background-color: rgb(255, 228, 141);
 }
 
 @font-face {
