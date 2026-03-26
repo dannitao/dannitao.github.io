@@ -1,7 +1,7 @@
 import React, { FC } from "react";
 import SpinWheel from "../components/SpinWheel";
 
-const CoffeeWheel: FC = () => {
+const CoffeeWheelPage: FC = () => {
   return (
     <div>
       <h1>Coffee Wheel</h1>
@@ -11,4 +11,4 @@ const CoffeeWheel: FC = () => {
   );
 };
 
-export default CoffeeWheel;
+export default CoffeeWheelPage;
