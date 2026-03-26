@@ -1,4 +1,4 @@
-import React, { FC } from "react";
+import { FC } from "react";
 import SpinWheel from "../components/SpinWheel";
 
 const CoffeeWheelPage: FC = () => {

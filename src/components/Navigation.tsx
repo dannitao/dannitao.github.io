@@ -1,10 +1,14 @@
-import React, { FC } from "react";
+import { FC } from "react";
 import { Link } from "react-router-dom";
 import { Menu } from "semantic-ui-react";
 import routes from "../routes";
 import "./Navigation.css";
 
-const Navigation: FC = () => {
+interface NavigationProps {
+  isDarkMode?: boolean;
+}
+
+const Navigation: FC<NavigationProps> = () => {
   return (
     <Menu borderless className="navigation" style={{ marginBottom: "2rem" }}>
       <Menu.Item header>✨ Danni's Content ✨</Menu.Item>

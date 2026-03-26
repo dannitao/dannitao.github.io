@@ -1,4 +1,4 @@
-import React, { FC } from "react";
+import { FC } from "react";
 import "./Cards.css";
 import { CardsProps } from "../../types";
 

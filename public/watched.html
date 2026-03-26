@@ -7,6 +7,26 @@
   <link
     href="data:image/x-icon;base64,AAABAAEAEBAQAAAAAAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAgAAAAAAAAAAAAAAAEAAAAAAAAAAeXg0AAAAAAP///wDm3PkASA3eAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIiIiIiIiIiIiIiIiIiIiIiIiIiIiREIiIiIiIiRERCIiJEQiJEREIiJEREIkNEQiIkREQiJBQiIiQ0RCIiAiIiJDREIiICIiIiREIiIiAiIiIiICIiICIiIiIiACIgIiIiIiIiAgIiIiIiIiIgIiIiIiIiIiEiIiIiIiIiIiIiL//wAA//8AAP/HAAD/gwAA44MAAMGDAADB1wAAwe8AAMHvAADj9wAA/fcAAP53AAD/rwAA/98AAP//AAD//wAA"
     rel="icon" type="image/x-icon" />
+  <style>
+    :root {
+      color-scheme: light dark;
+    }
+    body {
+      color: var(--text-primary, #333);
+      background-color: var(--bg-primary, #fff);
+    }
+    @media (prefers-color-scheme: dark) {
+      body {
+        background-color: #1a1a1a;
+        color: #f5f5f5;
+      }
+      #header { background: #2d2d2d; color: #f5f5f5; }
+      #header a { color: #f5f5f5; }
+      .page { background: #1a1a1a; color: #f5f5f5; }
+      .page h1, .page p { color: #f5f5f5; }
+      .page ul li { color: #d0d0d0; }
+    }
+  </style>
 </head>
 
 <body>

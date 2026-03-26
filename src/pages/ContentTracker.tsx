@@ -1,4 +1,4 @@
-import React, { FC, useState } from "react";
+import { FC, useState } from "react";
 import Data2023 from "../Data2023";
 import Buttons from "../components/buttons/Buttons";
 import Cards from "../components/card/Cards";

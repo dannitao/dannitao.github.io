@@ -1,4 +1,4 @@
-import React, { FC } from "react";
+import { FC } from "react";
 import Data2023 from "../../Data2023";
 import Data2022 from "../../Data2022";
 import { Button } from "semantic-ui-react";
