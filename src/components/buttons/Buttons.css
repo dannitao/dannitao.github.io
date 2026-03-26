@@ -1,0 +1,7 @@
+.buttons-container {
+  display: flex;
+  justify-content: center;
+  gap: 4px;
+  margin-bottom: 8px;
+  overflow: auto;
+}
