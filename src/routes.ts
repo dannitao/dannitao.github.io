@@ -2,6 +2,7 @@ import HomePage from "./pages/Home";
 import ContentTrackerPage from "./pages/ContentTracker";
 import CoffeeWheelPage from "./pages/CoffeeWheel";
 import WatchedPage from "./pages/Watched";
+import WatchedLegacy from "./pages/WatchedLegacy";
 
 export interface Route {
   path: string;
@@ -19,6 +20,11 @@ export const routes: Route[] = [
     path: "/watched",
     label: "Watched",
     component: WatchedPage,
+  },
+  {
+    path: "/watched-legacy",
+    label: "Watched (Legacy)",
+    component: WatchedLegacy,
   },
   {
     path: "/content-tracker",
