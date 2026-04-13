@@ -1,24 +1,45 @@
 .navigation {
-  background-color: var(--bg-secondary);
-  box-shadow: var(--shadow-sm);
-  border-bottom: 1px solid var(--border-color);
+  background-color: var(--bg-secondary) !important;
+  box-shadow: var(--shadow-sm) !important;
+  border-bottom: 1px solid var(--border-color) !important;
 }
 
-.navigation .item {
+.navigation.ui.menu {
+  background-color: var(--bg-secondary) !important;
+  border-color: var(--border-color) !important;
+}
+
+.navigation.ui.menu .item {
   color: var(--text-primary) !important;
+  background-color: transparent !important;
+}
+
+.navigation.ui.menu .item:hover {
+  background-color: var(--bg-tertiary) !important;
+  color: var(--accent-primary) !important;
+}
+
+.navigation.ui.menu .item:active {
+  background-color: transparent !important;
 }
 
 .navigation a {
-  color: var(--text-primary);
+  color: var(--text-primary) !important;
   text-decoration: none;
   transition: color 0.3s, background-color 0.3s;
 }
 
 .navigation a:hover {
-  color: var(--accent-primary);
+  color: var(--accent-primary) !important;
 }
 
 .navigation .header {
   color: var(--accent-primary) !important;
   font-weight: 700 !important;
+  background-color: transparent !important;
+}
+
+.navigation.ui.menu .header.item {
+  color: var(--accent-primary) !important;
+  background-color: transparent !important;
 }
